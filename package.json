@@ -1,0 +1,10 @@
+{
+  "name": "a2a-x402-payment-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pay an A2A agent with x402: message/send, payment-required task, signed payment, completed task with receipt",
+  "scripts": { "start": "node client.mjs" },
+  "dependencies": { "@x402/core": "^2.0.0", "@x402/evm": "^2.0.0", "viem": "^2.21.0" },
+  "license": "MIT"
+}
